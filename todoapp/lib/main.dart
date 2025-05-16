@@ -141,6 +141,7 @@ class _ToDoListState extends State<ToDoList> {
       floatingActionButton: FloatingActionButton(
         onPressed: _showAddToDoDialog,
         tooltip: 'Add To Do',
+        // ignore: sort_child_properties_last
         child: const Icon(Icons.add),
         backgroundColor: Colors.blueAccent,
       ),
